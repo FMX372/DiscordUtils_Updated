@@ -4,13 +4,13 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DiscordUtils",
+    name="NextcordUtils_Reloaded",
     version="1.3.4",
-    author="toxicrecker, modified by Komrade FMX",
-    description="DiscordUtils is a very useful library made to be used with discord.py",
+    author="toxicrecker, modified by Komrade FMX for Nextcord",
+    description="DiscordUtils is a very useful library made to be used with nextcord",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://www.github.com/toxicrecker/DiscordUtils",
+    url="https://github.com/FMX372/DiscordUtils_Updated",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,6 +19,6 @@ setuptools.setup(
     ],
     python_requires=">= 3.6",
     include_package_data=True,
-    install_requires=["discord.py"],
+    install_requires=["nextcord"],
     extras_require={"voice": ["discord.py[voice]", "youtube-dl"]}
 )

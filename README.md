@@ -6,7 +6,7 @@ A very useful library made to be used in with [discord.py](https://pypi.org/proj
 # Installation
 For access to Pagination and InviteTracker use:
 ```
-pip install DiscordUtils
+pip install https://github.com/FMX372/DiscordUtils_Updated
 ```
 
 or, instead use the following for access to Music functions aswell
